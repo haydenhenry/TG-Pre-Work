@@ -1,0 +1,15 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color:teal;
+}
+
+/* In this lesson I learned about class names, another way to specify where to apply styling in CSS. This method
+uses the class attribute in HTML to define the element, and then using that class preceded by a period and followed by
+curly braces, that element is selected for the styles you define. */

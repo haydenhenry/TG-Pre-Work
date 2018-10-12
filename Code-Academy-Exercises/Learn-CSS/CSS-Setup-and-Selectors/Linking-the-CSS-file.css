@@ -1,0 +1,14 @@
+p {
+  font-family: Arial;
+}
+
+/* <head>
+  <title>Vacation World</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head> */
+
+/* In this lesson I learned how to link the CSS file to the HTML file using the link tag.
+Several attributes are used:
+href- the hyper reference using the file name that is being linked to
+type - the type of file being linked, which helps the browser
+rel - describes the relationship of the linked file, in this case the stylesheet */

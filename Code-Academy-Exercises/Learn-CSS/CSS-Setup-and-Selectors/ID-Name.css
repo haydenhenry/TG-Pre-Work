@@ -1,0 +1,25 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color:teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#article-title {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+/*<h1 id="article-title" class="title uppercase">Top Vacation Spots</h1>*/
+
+/* In this lesson, I learned about id names which can be used to uniquely select HTML elements for styling.
+They are applied similar to classes, except in the css they use a hash preceding the id name. */

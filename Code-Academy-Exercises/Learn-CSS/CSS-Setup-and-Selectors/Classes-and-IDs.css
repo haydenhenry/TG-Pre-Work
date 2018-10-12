@@ -1,0 +1,27 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color:teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.publish-time {
+  color: gray;
+}
+
+#article-title {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+/* In this lesson I learned about the differences between CSS classes and ids. While classes are meant to be
+used several times, ids are unique identifiers, and have a singular purpose.   */

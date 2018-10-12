@@ -1,0 +1,39 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.title {
+  color:teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.description h5 {
+  color: teal;
+}
+
+/*  In this lesson, I learned how to select nested elements in CSS by first adding the selector of the parent element,
+and then a space, and then the nested elements you want to select. This tells the browser you only want to select the
+nested element within the specified parent element.  */

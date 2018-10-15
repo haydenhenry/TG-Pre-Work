@@ -1,0 +1,3 @@
+In this lesson I learned that certain properties of CSS are set by default and do not have to be specified. This applies to the
+box sizing property which is set to content-box by default. We can change the value to border-box, which will allow for a boxes specified
+height and width to remain as they are, and would keep the contents border and padding inside the box.

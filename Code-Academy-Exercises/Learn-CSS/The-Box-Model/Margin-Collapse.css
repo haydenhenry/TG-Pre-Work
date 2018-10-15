@@ -1,0 +1,3 @@
+/* In this lesson, I learned about why vertial margins collapse on each other. Unlike horizontal margins which add the sum of
+each margin to determine the total space between content, vertical margins will take the larger margin of two close elements. This can
+make it appear as though content had collapsed in on itself.   */

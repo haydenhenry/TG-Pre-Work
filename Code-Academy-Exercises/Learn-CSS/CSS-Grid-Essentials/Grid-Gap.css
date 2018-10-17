@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width:400px;
+  grid-gap: 20px 5px;
+  grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+
+/* In this lesson I learned how to use the grid-gap property to put space between grid items. This is done by specifying the
+amount of space you want in the value. The grid-gap property is shorthand for grid-column-gap and grid-row-gap.  */

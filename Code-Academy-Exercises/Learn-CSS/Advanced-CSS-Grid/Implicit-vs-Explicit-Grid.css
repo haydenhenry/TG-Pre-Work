@@ -1,0 +1,3 @@
+/* In this lesson I learned the difference between explicit and implicit grids in CSS. An explicit grid is a grid that is
+defined by the developer. An implicit grid is an algorithim that defines the behaviour of a grid when there are elements that do
+not fit inside the grid dimensions. The implicit grid will fill rows first, only making them as tall as the content within them.   */

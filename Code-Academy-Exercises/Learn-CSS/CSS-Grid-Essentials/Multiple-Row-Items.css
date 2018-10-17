@@ -1,0 +1,25 @@
+
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width: 500px;
+  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+  grid-gap: 5px;
+}
+
+.a {
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* In this lesson I learned how to use the grid-start and grid-end properties to adjust row and columns in CSS Grid. This allows the
+developer to set where a row or column begins and ends. The values of these properties are based off of the lines in the grid, so if
+there are 2 items, there will be three total lines.   */

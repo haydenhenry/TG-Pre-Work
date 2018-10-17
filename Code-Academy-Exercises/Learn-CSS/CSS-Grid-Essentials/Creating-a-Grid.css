@@ -1,0 +1,16 @@
+.grid {
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  display: grid;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* In this lesson, I learned how to create a grid in CSS by setting the display value of an element to grid or inline-grid.
+On the HTML side, there must be a grid container as well as grid items.  */

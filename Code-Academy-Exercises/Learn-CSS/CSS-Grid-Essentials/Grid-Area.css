@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width: 500px;
+  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+  grid-gap: 5px;
+}
+
+.a {
+  grid-area: 5 / 1 / span 2 / span 2;
+}
+
+.b {
+  grid-area: 2 / 2 / span 3 / span 6;
+}
+
+.c {
+  grid-area: 6 / 8 / span 3 / span 1;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* In this lesson I learned about the grid-area property, and how it is shorthand for the grid row and column begin and end properties.
+The order is important, and goes with the begining values first, and then the end values. The row is first and then the column. So the
+end result is: row start, column start, row end, column end.  */

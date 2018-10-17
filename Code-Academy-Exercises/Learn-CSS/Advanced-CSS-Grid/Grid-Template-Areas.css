@@ -1,0 +1,48 @@
+.container {
+  display: grid;
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  grid-gap: 10px;
+  grid-template-areas: "header header"
+    									 "nav nav"
+    									 "left right"
+    									 "footer footer";
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 150px 200px 600px 200px;
+}
+
+h1, h2 {
+  font-family: monospace;
+  text-align: center;
+}
+
+header {
+  background-color: dodgerblue;
+  grid-area: header;
+}
+
+nav {
+  background-color: beige;
+  grid-area: nav;
+}
+
+.left {
+  background-color: dodgerblue;
+  grid-area: left;
+}
+
+.right {
+  background-color: beige;
+  grid-area: right;
+}
+
+footer {
+  background-color: dodgerblue;
+  grid-area: footer;
+}
+
+
+/* In this lesson I learned the grid-template-areas property. This can be used to name sections of a webpage and use them as values.
+The sections are named within quotations, with each row having its own set of quotations, and a name for each column. If the row name
+spans both columns, it is repeated in the same quotations. */

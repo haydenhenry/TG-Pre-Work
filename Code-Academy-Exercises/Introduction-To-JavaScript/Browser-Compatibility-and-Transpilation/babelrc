@@ -1,0 +1,8 @@
+{
+  "presets": ["env"]
+}
+
+
+/* To specify the initial JavaScript version inside your file, you run touch .babelrc
+in the terminal. This creates the babelrc file.  To specify that we are transpiling
+code from ES6, we add an object: {"presets": ["env"]}.  */

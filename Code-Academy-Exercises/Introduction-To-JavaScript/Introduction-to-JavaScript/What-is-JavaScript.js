@@ -1,0 +1,2 @@
+/* Javascript is a powerful programming language used on most modern web browsers. It is often among the first languages
+learned by new developers.  */
